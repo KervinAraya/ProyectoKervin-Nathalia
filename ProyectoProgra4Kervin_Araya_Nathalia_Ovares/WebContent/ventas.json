@@ -1,0 +1,15 @@
+[
+{
+	"codigo":"0001", "producto":"Queso tierno","cantidad":"2kg","precio":4400
+},
+{
+	"codigo":"0002", "producto":"Natilla","cantidad":"2u","precio":1300
+},
+{
+	"codigo":"0003", "producto":"Queso amarillo","cantidad":"2kg","precio":2500
+},
+{
+	"codigo":"0004", "producto":"Queso mozarella","cantidad":"2kg","precio":8000
+}
+
+]

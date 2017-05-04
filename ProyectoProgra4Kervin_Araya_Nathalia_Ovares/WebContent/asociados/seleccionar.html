@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+ 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="../js/eliminar/script.js" ></script>
+  <script src="../js/tablas/script.js" ></script>
+  
+  <script src="../js/asociados/scriptBuscarAsociado.js"></script>
+   <link rel='stylesheet' href='../css/formularios/eliminar.css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel='stylesheet' href='../css/menu/style.css'>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel='stylesheet' href='../css/formularios/registro.css'>
+    <link rel='stylesheet' href='../css/formularios/tabla.css'>
+     <link rel='stylesheet' href='../css/formularios/seleccionar.css'>
+
+</head>
+
+<body>
+       <header>
+      <div class="navbar-wrapper">
+        <div class="container-fluid">
+            <nav class="navbar navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        </button>
+                       
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown"><a href="../inicio.html" class="">Inicio</a></li>
+                            <li class=" active"><!--ya se cambio-->
+                                <a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Socios <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                   
+                                       <li><a href="seleccionver.html">Ver socios</a></li>
+                                        <li><a href="registro.html">Añadir socio</a></li>
+                                        <li><a href="eliminar.html">Eliminar socio</a></li>
+                                        <li><a href="modificar.html">Modificar socio</a></li>
+                                 </ul>           
+                            </li>
+                            <li class="dropdown"><a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Empleados <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="../empleados/seleccionver.html">Ver empleados</a></li>
+                                        <li><a href="../empleados/registro.html">Añadir empleado</a></li>
+                                        <li><a href="../empleados/eliminar.html">Eliminar empleado</a></li>
+                                        <li><a href="../empleados/modificar.html">Modificar empleado</a></li>
+                                    </ul>
+                                </li>
+                            <li class=" dropdown"><a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Productos <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                     <li><a href="../productos/seleccionar.html">Ver productos</a></li>
+                                   
+                                    <li><a href="../productos/registro.html">Registrar productos</a></li>
+                                     <li><a href="../productos/sinnombre.html"> Añadir productos</a></li>
+                                    <li><a href="../productos/eliminar.html">Eliminar productos</a></li>
+                                    <li><a href="../productos/modificar.html">Modificar productos</a></li>
+                                        
+                                </ul>
+                            </li>
+                            <li class=" dropdown"><a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Ventas <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                        <li><a href="../ventas/seleccionar.html">Ver ventas</a></li>
+                                        <li><a href="../ventas/añadir.html">Añadir venta</a></li>
+                                  
+                                        <li><a href="../ventas/reembolso.html">Reembolso</a></li>
+                                </ul>
+                            </li>
+                            <li class=" down"><a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Materia prima <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="../materiaprima/seleccionar.html">Ver productos lacteos</a></li>
+                                    <li><a href="../materiaprima/registro.html">Registrar producto lacteo</a></li>
+                                    <li><a href="../materiaprima/modificar.html">Modificar producto lacteo</a></li>
+
+                                </ul>
+                            </li>
+                                <li class=" down"><a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pagos <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="../pagos/pago.html">Realizar pago de producto lacteo</a></li>
+                                        
+                                    </ul>
+                                </li>
+                        </ul>
+                        <ul class="nav navbar-nav pull-right">
+                            <li class=" dropdown"><a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Usuario  <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    
+                                    <li class=""><a href="../index.html">Cerrar sesión</a></li>
+                                    
+                                    
+                                </ul>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+         <h1 class="well">VER ASOCIADO </h1>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col-xl-2">
+          <span class="srchLabel">BUSQUEDA</span>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+          <input placeholder="Buscar socio ..." type="text" class="typeahead tt-query" autocomplete="off" spellcheck="false" id="txtSearch">
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+          <button type="button "onclick="buscar();" class="btn btn-primary btnSearchOptions">BUSCAR</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-10 col-lg-12 col-xl-12">
+          <span class="engAlpha">
+                <div class="pagination pagination-large">
+                   <ul class="pager">
+                   </ul>
+                </div>
+             </span>
+        </div>
+      </div>
+    </div>
+    
+
+    </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xs-offset-0 col-sm-offset-0 col-md-offset-3 col-lg-offset-3 toppad" id="col">
+   
+   
+          <div class="panel panel-info">
+            <div class="panel-heading" id="barra">
+               <input type="text" id="nom" class="panel-title" readonly="readonly" style="background-color: #DBE6B1">
+            </div>
+            <div class="panel-body">
+              <div class="row">
+                <div class="col-md-3 col-lg-3 " align="center"> <img alt="User Pic" src="../imagenes/avatar.png" class="img-circle img-responsive">
+                <button class="btn btn-primary" id="btnEditar">
+                  ...
+                </button>  
+                 </div>   
+                <div class=" col-md-9 col-lg-9 " id="col"> 
+                  <table class="table table-user-information">
+                    <tbody>
+                    <br>
+                      <tr>
+                        <td>Cedula</td>
+                        <td><input type="text" id="cedula" readonly="readonly"></td>
+                      </tr>
+                      <tr>
+                        <td>Dirección</td>
+                        <td><input type="text" id="direccion" readonly="readonly"></td>
+                      </tr>
+                        <tr>
+                          <td>Telefono</td>
+                          <td><input type="text" id="telefono"  readonly="readonly"></td>
+                        </tr>
+                   
+                         <tr>
+                           <tr>
+                            <td>Correo electrónico</td>
+                            <td><input type="text" id="correo" readonly="readonly"></td>
+                          </tr>
+                         
+                          
+                        <tr>
+                        
+                    </tbody>
+                  </table>
+                  
+                  <a href="#" class="btn btn-primary" id="btnImprimir">Imprimir</a>
+                  
+                </div>
+              </div>
+            </div>
+                
+            
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="modal fade" id="delete" tabindex="-1" role="dialog" aria-labelledby="edit" aria-hidden="true">
+          <div class="modal-dialog">
+        <div class="modal-content">
+              <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
+            <h4 class="modal-title custom_align" id="Heading">Eliminar este socio</h4>
+          </div>
+              <div class="modal-body">
+           
+           <div class="alert alert-danger"><span class="glyphicon glyphicon-warning-sign"></span> ¿Está seguro que desea eliminar este socio?</div>
+           
+          </div>
+            <div class="modal-footer ">
+            <button type="button" class="btn btn-success" ><span class="glyphicon glyphicon-ok-sign"></span> Si</button>
+            <button type="button" class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> No</button>
+          </div>
+            </div>
+        <!-- /.modal-content --> 
+      </div>
+          <!-- /.modal-dialog --> 
+        </div>
+
+  </main>
+  </body>
+  </html>

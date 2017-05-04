@@ -1,0 +1,6 @@
+[ 
+{ "cedula": "305020820", "nombre": "Kervin","apellidos": "Araya Romero","Direccion":"800mts Norte ebanistería montero, el sauce, Santa Teresita","telefono":"8452-8925","correo":"kervin@gmail.com","pass":"1234","sueldo":50000}, 
+{"cedula": "402060267", "nombre": "Nathalia","apellidos": "Ovares Vindas","Direccion":"San Pablo,Heredia","telefono":"8753-9494","correo":"nathy@gmail.com","pass":"1234","sueldo":60000},
+{"cedula": "101250144", "nombre": "Pablito","apellidos": "Madriz Angulo","Direccion":"frente a taller vargas, el cas, Santa Teresita","telefono":"8974-9401","correo":"angulo@gmail.com","pass":"1234","sueldo":50000}
+]
+
