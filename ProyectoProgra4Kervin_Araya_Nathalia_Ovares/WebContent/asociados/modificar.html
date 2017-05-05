@@ -12,11 +12,13 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel='stylesheet' href='../css/menu/style.css'>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <link rel='stylesheet' href='../css/formularios/registro.css'>
-    <link rel='stylesheet' href='../css/formularios/tabla.css'>
-       <link rel='stylesheet' href='../css/formularios/seleccionar.css'>
-       <script src="../js/asociados/scriptBuscarAsociado.js"></script>
+  <link rel='stylesheet' href='../css/formularios/registro.css'>
+  <link rel='stylesheet' href='../css/formularios/tabla.css'>
+  <link rel='stylesheet' href='../css/formularios/seleccionar.css'>
+   <script src="../js/asociados/scriptBuscarAsociado.js"></script>
+   <script src="../js/correo.js"></script>
    <script type="text/javascript">
+
         function maskara(e){
             var texto = document.getElementById("cedula").value;
             var temporal=texto;
@@ -243,7 +245,7 @@
                          <tr>
                            <tr>
                             <td>Correo electrónico</td>
-                            <td><input type="text" name="" id="correo" ></td>
+                            <td><input type="text" name="" onblur="validarCorreo();" id="correo" ></td>
                           </tr>
                                                  
                     </tbody>

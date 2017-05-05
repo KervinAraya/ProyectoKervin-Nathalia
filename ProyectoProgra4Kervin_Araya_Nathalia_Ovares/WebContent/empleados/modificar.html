@@ -14,6 +14,7 @@
     <link rel='stylesheet' href='../css/formularios/tabla.css'>
     <link rel='stylesheet' href='../css/formularios/seleccionar.css'>
     <script src="../js/empleados/scriptBuscarEmpleado.js"></script>
+  <script src="../js/correo.js"></script>
       <script type="text/javascript">
         function maskara(e){
             var texto = document.getElementById("cedula").value;
@@ -239,7 +240,7 @@
                          <tr>
                            <tr>
                             <td>Correo electrónico</td>
-                            <td><input type="text" name="" id="correo" ></td>
+                            <td><input type="text" name="" onblur="validarCorreo();" id="correo" ></td>
                           </tr>
                           <tr>
                               <td>Sueldo</td>
